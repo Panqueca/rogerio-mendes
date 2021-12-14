@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "export": "cross-env NODE_ENV=production NODE_OPTIONS=--max-old-space-size=4096 yarn build",
+    "export": "cross-env NODE_ENV=production NODE_OPTIONS=--max-old-space-size=4096 npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
